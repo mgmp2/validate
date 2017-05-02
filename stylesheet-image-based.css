@@ -1,0 +1,36 @@
+
+input[type=radio]{
+
+  opacity : 0;
+}
+
+
+input[type=radio] + label{
+  display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url('checks.png') no-repeat 0 0;
+  line-height  : 24px;
+}
+
+input[type=radio]:checked + label{
+  background-position : 0 -48px;
+}
+
+
+div.scroll {
+    width: 140px;
+    height: 100px;
+    overflow: scroll;
+}
+.scroll span:hover {
+    display: block;
+    width: 100%;
+    background: red;
+    cursor: pointer;
+}
+.select-span {
+     display: block;
+    background: red;
+    width: 100%;
+}

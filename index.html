@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8">
+    <title>Example - images</title>
+    <link rel="stylesheet" href="stylesheet-image-based.css">
+  </head>
+  <body>
+   <form action="" name="formulario">
+       
+    <div id="choose">
+      <div>
+        <input  type="radio" name="radio" >
+        <label for="radio1">Option 1</label>
+      </div>
+      <div>
+        <input  type="radio" name="radio">
+        <label for="radio2">Option 2</label>
+      </div>
+      <div>
+        <input  type="radio" name="radio">
+        <label for="radio3">Option 3</label>
+      </div>
+      <div>
+        <input  type="radio" name="radio">
+        <label for="radio3">Option 4</label>
+      </div>
+      <div>
+        <input  type="radio" name="radio">
+        <label for="radio3">Option 5</label>
+      </div>
+    </div>
+    <div id="subir">
+        <input type="file" title="hola">
+        <input type="submit" value="guardar">
+    </div>
+    <div id="palabras">
+        <fieldset>
+               <legend>hola</legend>
+                <h3>Sobre el futuro de la organización postulante</h3>
+                <textarea name="mensaje" id="txtarea" cols="30" rows="10" maxlength="100"></textarea>
+                <p>Le quedan <span id="contador-char">100</span> de 100 caracteres</p>
+            </fieldset>
+    </div>
+    <div id="overflow">
+        <p>overflow:scroll</p>
+        <div class="scroll">
+            <span class="js-tipo">ONG</span>
+            <span class="js-tipo">FUNDACIONES</span>
+            <span class="js-tipo">EMPRESA</span>
+            <span class="js-tipo">ASOCIACIÓN CIVIL</span>
+            <span class="js-tipo">INSTITUTO</span>
+            <span class="js-tipo">UNIVERSIDAD</span>
+        </div>
+    </div>
+    </div>
+   </form>
+   <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
